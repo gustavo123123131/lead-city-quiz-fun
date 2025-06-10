@@ -52,8 +52,8 @@
   }
   
   .card-gradient {
-    background: #ffffff;
-    border: 2px solid #000000;
+    background: #1f1f1f;
+    border: 2px solid #dc2626;
   }
   
   .text-gradient {
@@ -74,7 +74,7 @@
   }
 
   .decorative-pattern {
-    background: #ffffff;
+    background: #1f1f1f;
   }
 
   .simple-shadow {
