@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Package } from '../types';
 
@@ -10,27 +11,27 @@ const PackagesSection: React.FC<PackagesSectionProps> = ({ onPackageSelect }) =>
     {
       id: 1,
       name: "Grupo VIP",
-      description: "Acesso semanal",
-      price: 16.90,
+      description: "Acesso semanal + chamada grátis de 5min",
+      price: 11.83,
       emoji: "✨",
-      features: ["Acesso ao grupo por 1 semana", "Conteúdo exclusivo diário", "Chat direto comigo", "Fotos e vídeos sensuais"]
+      features: ["Acesso ao grupo por 1 semana", "Conteúdo exclusivo diário", "Chat direto comigo", "Fotos e vídeos sensuais", "🎁 Chamada grátis de 5 minutos"]
     },
     {
       id: 2,
       name: "Grupo VIP",
-      description: "Acesso mensal",
-      price: 26.90,
+      description: "Acesso mensal + chamada grátis de 5min",
+      price: 18.83,
       emoji: "✨",
-      features: ["Acesso ao grupo por 1 mês", "Todo conteúdo exclusivo", "Chat direto prioritário", "Vídeos íntimos completos"],
+      features: ["Acesso ao grupo por 1 mês", "Todo conteúdo exclusivo", "Chat direto prioritário", "Vídeos íntimos completos", "🎁 Chamada grátis de 5 minutos"],
       popular: true
     },
     {
       id: 3,
       name: "Grupo VIP",
-      description: "Acesso vitalício",
-      price: 36.90,
+      description: "Acesso vitalício + chamada grátis de 5min",
+      price: 25.83,
       emoji: "✨",
-      features: ["Acesso permanente ao grupo", "Todo o conteúdo premium", "Chat VIP comigo", "Conteúdo personalizado", "Prioridade total"],
+      features: ["Acesso permanente ao grupo", "Todo o conteúdo premium", "Chat VIP comigo", "Conteúdo personalizado", "Prioridade total", "🎁 Chamada grátis de 5 minutos"],
       vip: true
     },
     {
