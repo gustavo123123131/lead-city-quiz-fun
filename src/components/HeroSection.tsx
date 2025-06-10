@@ -31,8 +31,8 @@ const HeroSection = () => {
         <div className="w-2 h-2 bg-red-600 rounded-full"></div>
       </div>
 
-      {/* Cover Image */}
-      <div className="relative h-28 md:h-32 overflow-hidden bg-black">
+      {/* Cover Image - Increased height */}
+      <div className="relative h-40 md:h-48 overflow-hidden bg-black">
         <img 
           src="/lovable-uploads/4d5dabb8-adf3-46b6-932f-c07810c73ccd.png" 
           alt="Cover"
